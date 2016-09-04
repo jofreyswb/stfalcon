@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Tovar 1",
+    "article": "b12",
+    "price": 123,
+    "currency": "UAH",
+    "credit": true
+  },
+  {
+    "name": "Tovar b2",
+    "article": "b12fd",
+    "price": 200,
+    "currency": "USD",
+    "credit": false
+  },
+  {
+    "name": "Tovar b2x",
+    "article": "b12fda",
+    "price": 220,
+    "currency": "USD",
+    "credit": false
+  },
+  {
+    "name": "Tovara b2x",
+    "article": "b12cfda",
+    "price": 2220,
+    "currency": "UAH",
+    "credit": true
+  }
+]

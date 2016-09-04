@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 center-block"><h2>Магазин</h2></div>
+        <div class="col-md-4">Вы вошли как : {{user.role}} <strong>{{user.name}}</strong> <button type="button" ng-click="logout()" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-log-out"></span></button></div>
+    </div>
+    <h2 class="center-block">Товар</h2>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Название</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="product in products">
+            <td ng-bind="$index"></td>
+            <td ng-bind="product.name"></td>
+            <td>
+                <button type="button" ng-click="show(product)" class="btn btn-default btn-sm">Посмотреть</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
